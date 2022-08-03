@@ -1,0 +1,13 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "diffEditor.codeLens": true
+}

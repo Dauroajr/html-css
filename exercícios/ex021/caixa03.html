@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        h1 {
+            border: 20px solid transparent;
+            padding: 10px;
+            border-image-source: url('Borda.png');
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+            /* border-color: rgb(255, 153, 0); */
+
+            /*
+            É possível utilizar a shorthand abaixo, no lugar das três
+            propriedades de "border-image: " :
+
+            border-image: url('Borda.png') 27 repeat;
+
+            ps. A propriedade "border" PRECISA estar configurada. Do contrário,
+            a borda personalizada não funcionará/aparecerá.
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+
+</body>
+</html>
